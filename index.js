@@ -1,9 +1,39 @@
 "use strict";
-let arr1 = [1, 2, 3, 4, 5, 6];
-const arr2 = [7, 8, 9];
-arr1.push(...arr2);
-const [, , a, , , ...q] = arr1;
-console.log(a, q);
+const tree = undefined;
+const nalis = tree !== null && tree !== void 0 ? tree : "tree";
+console.log(nalis);
+// let rahim: unknown;
+// rahim = "rehim";
+// rahim = 45,
+// rahim = undefined
+// const user: null  = null
+// interface User {
+//     name: string;
+//     age: number;
+//     location?: string;
+// }
+// const Peple1: User = {
+//     name: "Samim",
+//     age: 354,
+//     location: "banglades"
+// }
+// const Peple2 : User = {
+//     name: "Mahide",
+//     age: 423,
+// }
+// type Shup22 = {
+//     name: string;
+// }
+// type Shup11 = {
+//     price: number;
+// }
+// type Saban = Shup11 & Shup22;
+// const product: Saban = {
+//     name: "merel",
+//     price: 4354,
+// }
+// type Footboll = string | number | boolean;
+// const footboll: Footboll ="ahmad salah"
 // type Add = (v1: number, v2: number) => number;
 // const add:Add = (v1, v2)=>{
 //  return v1 + v2
