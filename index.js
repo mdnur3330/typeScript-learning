@@ -1,7 +1,13 @@
 "use strict";
-const tree = undefined;
-const nalis = tree !== null && tree !== void 0 ? tree : "tree";
-console.log(nalis);
+let naem;
+naem = "oewrti".indexOf("w");
+console.log(naem);
+// const add = (): never=>{
+//     throw new Error()
+// }
+// const tree:string = "";
+// const nalis = tree??"tree"
+// console.log(nalis);
 // let rahim: unknown;
 // rahim = "rehim";
 // rahim = 45,
