@@ -1,7 +1,60 @@
 "use strict";
-let naem;
-naem = "oewrti".indexOf("w");
-console.log(naem);
+const geeAdd = (v) => v + v;
+const result = geeAdd(5);
+console.log(result);
+// interface Car {
+//     brand: string;
+//     mode: string;
+//     year: string;
+//     isElctric: boolean;
+// }
+// const getCarValue = (obj:Car, key: keyof Car) =>{
+//     console.log(obj[key]);
+// }
+// const car:Car = {
+//     brand: "tesla",
+//     mode: "4323-ireu",
+//     year: "22023",
+//     isElctric: false
+// }
+// getCarValue(car, "isElctric")
+// const getInfo = <T>(info: T): T =>{
+//     return info
+// }
+// const result = getInfo<number>(4565)
+// console.log(result);
+// interface IAdmin<T,Tk> {
+//     name: string;
+//     roll: string;
+//     access: boolean;
+//     outher: T;
+//     selary: Tk;
+// }
+// const admin: IAdmin<{
+//         respons: boolean;
+//         mov: boolean;
+//     },number> = {
+//     name: "ali akbar",
+//     roll: "buyer",
+//     access: true,
+//     outher: {
+//         respons: false,
+//         mov: true,
+//     },
+//     selary: 4564,
+// }
+// type GenarekTy<T> = Array<T>
+// const arr1: GenarekTy<number> = [3,4,5,6,7]
+// const arr2: GenarekTy<string> = ["nur", "alom"]
+// const arr3: GenarekTy<boolean> = [true,false]
+// interface ArrNumber {
+//     [index: number] : string
+// }
+// const arr: ArrNumber = ["1","1","1","1",]
+// let naem : any; 
+// naem= ("oewrti" as string).indexOf ("w")
+// naem = 4564 as number
+// console.log(naem);
 // const add = (): never=>{
 //     throw new Error()
 // }
